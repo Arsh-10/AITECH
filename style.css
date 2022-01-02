@@ -164,7 +164,7 @@ p{
 
 
 /* Media querries */
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   #head1, h2, h3, h1, h4{
       font-size: 35px !important;
   }
@@ -174,19 +174,38 @@ p{
   .refer{
     padding-right: 30px !important;
   }
+  p{
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #head1, h2, h3, h1, h4{
+      font-size: 30px !important;
+      padding: 10px;
+  }
+  img{
+    max-width: 150px !important;
+  }
+  .refer{
+    padding-right: 30px !important;
+  }
+  p{
+    font-size: 13px !important;
+  }
 }
 
 @media (max-width: 768px) {
   #head1, h1, h2, h3{
-      font-size: 30px !important;
+      font-size: 25px !important;
       padding: 5px;
   }
-  #p1, p, input{
+  #p1, input{
       font-size: 18px !important;
       padding: 5px;
   }
   img{
-    max-width: 150px !important;
+    max-width: 130px !important;
   }
   .refer{
     padding-right: 30px !important;
@@ -196,6 +215,9 @@ p{
       height: 300px;
       margin-top: 20px;
   } 
+  p{
+    font-size: 12px !important;
+  }
   /* .top{
     padding-top: 5px;
   } */
@@ -203,10 +225,10 @@ p{
 
 @media (max-width: 500px) {
   #head1, h1, h2, h3{
-      font-size: 25px !important;
+      font-size: 20px !important;
       padding: 5px;
   }
-  #p1, p, input{
+  #p1, input{
       font-size: 16px !important;
       padding: 5px;
   }
@@ -223,6 +245,10 @@ p{
   }
   .foo{
     font-size: 15px !important;
+  }
+  p{
+    font-size: 11px !important;
+    padding-bottom: 25px;
   }
   /* .top{
     padding-top: 5px;
